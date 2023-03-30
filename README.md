@@ -11,33 +11,35 @@ Laden Sie die Dateien SD_Network.php, ip_status.php, style.css und start_batch.p
 Stellen Sie sicher, dass der Webserver PHP-Unterstützung hat.
 Legen Sie die IP-Adressen Ihrer SD-Render-Farm-Knoten in der Datei ip_status.php fest.
 Passen Sie den Port in der ip_status.php-Datei an, falls dieser nicht standardmäßig auf 7860 festgelegt ist.
+
 Verwendung
 Rufen Sie die ip_status.php-Datei im Browser auf, um die Tabelle der SD-Render-Farm-Knoten und ihren Status anzuzeigen.
 
 Anpassung
 Sie können das Aussehen des Skripts anpassen, indem Sie die CSS-Datei bearbeiten.
 
-License
-Dieses Skript ist unter der MIT-Lizenz veröffentlicht. Eine Kopie der Lizenz finden Sie in der Datei LICENSE.
+Lizenz
+Dieses Skript ist unter der GPL-Lizenz veröffentlicht. Eine Kopie der Lizenz finden Sie in der Datei LICENSE.
 
 Readme (English)
 
 Stable Diffusion Network Status Viewer
-This is a PHP script used to check the availability of Stable Diffusion (SD) Render Farm nodes on the network. The script checks the accessibility of each node based on the IP address and port and displays the status as a green or red circle next to the IP address. If a node is reachable, the user can click on the circle to connect to the node. If a node is unreachable, a "Start Batch File" button is displayed to execute a batch file on the corresponding node.
+This is a PHP script used to check the availability of Stable Diffusion (SD) render farm nodes on the network. The script checks the availability of each node based on the IP address and port and displays the status as a green or red circle next to the IP address. If a node is reachable, the user can click on the circle to connect to the node. If a node is not reachable, a "Start Batch File" button is displayed to run a batch file on the corresponding node.
 
 Requirements
-To use the script, you need a web server with PHP support. The script also uses the ping command to check the accessibility of the node, so this command must be available on the server.
+To use the script, you need a web server with PHP support. The script also uses the ping command to check the node's availability, so this command must be available on the server.
 
 Installation
 Download the files SD_Network.php, ip_status.php, style.css, and start_batch.php to your web server.
 Make sure the web server has PHP support.
-Set the IP addresses of your SD Render Farm nodes in the ip_status.php file.
-Modify the port in the ip_status.php file if it's not set to the default of 7860.
+Set the IP addresses of your SD render farm nodes in the ip_status.php file.
+Adjust the port in the ip_status.php file if it is not set to the default 7860.
+
 Usage
-Access the SD_Network.php file in the browser to display the table of SD Render Farm nodes and their status.
+Call the ip_status.php file in your browser to display the table of SD render farm nodes and their status.
 
 Customization
-You can customize the look of the script by editing the CSS file.
+You can customize the appearance of the script by editing the CSS file.
 
 License
-This script is published under the MIT License. A copy of the license can be found in the LICENSE file.
+This script is released under the GPL license. A copy of the license can be found in the LICENSE file.
