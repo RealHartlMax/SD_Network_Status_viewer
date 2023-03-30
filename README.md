@@ -22,7 +22,7 @@ Dieses Skript ist unter der MIT-Lizenz veröffentlicht. Eine Kopie der Lizenz fi
 
 Readme (English)
 
-Stable Diffusion Network Checker
+Stable Diffusion Network Status Viewer
 This is a PHP script used to check the availability of Stable Diffusion (SD) Render Farm nodes on the network. The script checks the accessibility of each node based on the IP address and port and displays the status as a green or red circle next to the IP address. If a node is reachable, the user can click on the circle to connect to the node. If a node is unreachable, a "Start Batch File" button is displayed to execute a batch file on the corresponding node.
 
 Requirements
